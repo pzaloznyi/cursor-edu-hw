@@ -4,10 +4,6 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.TimeUnit;
 
-/**
- * 1) реалізувати за допомогою concurrence пожежну частину, тобто є потоки які очікують сигналу,
- *    і коли поступає сигнал, вони йдуть на виклик.
- */
 public class Program {
     public static void main(String[] args) throws InterruptedException {
         var districts = new Districts().generate();
